@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*
+
+WHITE
+Light Grey: #EEEEEE
+Dark Grey: #595959
+
+Light Blue: #81BCD7
+Mid Blue: #215480
+Dark Blue: #11233C
+
+*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Montserrat';
+    background-color: #EEEEEE;
+}
+
+.lightblue {
+    color: #81BCD7;
+}
+
+.darkblue {
+    color: #11233C;
+}
+
+.bkmidblue {
+    background-color: #215480;
+}
+
+h1 {
+    font-size: 120px;
+    font-weight: 800;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+}
+
+header {
+    margin: auto;
+    width: 95%;
+
+    display: grid;
+    grid-template-columns: 100px auto;
+}
+
+nav {
+    text-align: right;
+    margin-top: 35px;
+    margin-bottom: 0px;
+}
+
+li {
+    display: inline;
+
+    margin-left: 60px;
+}
+
+.navlinks {
+    color: #595959;
+    font-weight: 600;
+}
+
+.navlinks:hover {
+    color: #215480;
+    cursor: pointer;
+}
+
+.midbluebutton {
+    padding: 10px 40px;
+
+    border: none;
+    outline: none;
+
+    background-color: #215480;
+    color: white;
+
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+
+.midbluebutton:hover {
+    background-color: #11233C;
+    cursor: pointer;
+}
+
+.banner {
+    margin: auto;
+    width: 95%;
+    height: 500px;
+    padding-top: 150px;
+    text-align: center;
+}
